@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: zomato
-  namespace: zomato-ns
   labels:
     app: zomato
 spec:
